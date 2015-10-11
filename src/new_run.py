@@ -916,5 +916,5 @@ engine_w_dialects = LangSearchEngine('dbase/phono_dbase.json', True)
 with open('dbase/phono_dbase.json', 'r', encoding = 'utf-8') as inp:
     lang_dic = json.load(inp)
 
-with open('../new_html/template.html', 'r', encoding = 'utf-8') as inp:
+with open('../html/template.html', 'r', encoding = 'utf-8') as inp:
     template = inp.read()
