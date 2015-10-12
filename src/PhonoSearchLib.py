@@ -396,4 +396,4 @@ def escapeHTML4JSON(html):
 if __name__ == '__main__':
     pp = pprint.PrettyPrinter(indent = 4)
     engine = LangSearchEngine('dbase/phono_dbase.json', with_dialects = True)
-    pp.pprint(engine.IPA_query_multiple('-n'))
+    pp.pprint(engine.IPA_query_multiple('ʃːʼ'))

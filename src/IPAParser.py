@@ -337,7 +337,7 @@ def main():
 #         reply = input()
 #         if reply in {'n', 'N', 'no'}:
 #             break
-    for phon in ['ð', 'θ']:
+    for phon in ['ʃːʼ']:
         print(phon, parsePhon(phon))
 
 if __name__ == '__main__':

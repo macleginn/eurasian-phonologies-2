@@ -299,7 +299,7 @@ def get_segments():
     script = """
     <script>
     function searchForThis(s) {
-        var newUrl = window.location.protocol + "//" + window.location.host + "/search_exact?" + "query=" + s.textContent;
+        var newUrl = window.location.protocol + "//" + window.location.host + "/search_exact?dialects=True&query=" + s.textContent;
         window.location.assign(newUrl); 
     }
     </script>
@@ -872,8 +872,8 @@ def app(environ, start_response):
     url = urllib.parse.urlsplit(environ['RAW_URI'])
     query = urllib.parse.parse_qs(url.query)
     path = url.path.split('/')[1:]
-    print(path)
-    print(query.encode('unicode_escape'))
+    # print(path)
+    # print(query.encode('unicode_escape'))
     if not path[0]:
         status = '200 OK'
         data = get_homepage()
