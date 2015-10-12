@@ -78,7 +78,7 @@ def get_homepage():
 <p>The <a href="reports">family/group reports</a> section provides some info on particular families and groups.</p>
 <p>There are three ways to query the database. The <a href="search_exact">exact search</a> returns the distribution of individual phonemes and combinations of phonemes (inluding phoneme gaps) in the covered languages. The <a href="search_fuzzy">fuzzy search</a> finds all variants of a base phoneme and their distribution. The <a href="search_feature">feature search</a> finds inventories displaying a particular combination of IPA features (including feature gaps).</p>
 <h3>Data dump</h3>
-<p>The latest version of the database can be downloaded <a href="phono_dbase.json">as a JSON-file</a>.
+<p>The latest version of the database can be downloaded <a href="http://eurasianphonology.info/static/phono_dbase.json">as a JSON-file</a>.
 <h3>Source code</h3>
 <p>The database-handling scripts used in this project including IPA parser and tabulator and the source code for this site are <a href="https://github.com/macleginn/eurasian-phonologies">on GitHub</a>.</p>
 <h3>Cite</h3>
