@@ -873,7 +873,7 @@ def app(environ, start_response):
     query = urllib.parse.parse_qs(url.query)
     path = url.path.split('/')[1:]
     print(path)
-    print(query)
+    print(query.encode('unicode_escape'))
     if not path[0]:
         status = '200 OK'
         data = get_homepage()
